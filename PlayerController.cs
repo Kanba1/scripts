@@ -62,12 +62,12 @@ public class PlayerController : MonoBehaviour
             invincibleTimer = timeInvincible;
         }
         currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);//public static float Clamp(float value, float min, float max); 
-        //Clamps the given value between the given minimum float and maximum float values. Returns the given value if it is within the min and max range
+        /*Clamps the given value between the given minimum float and maximum float values. Returns the given value if it is within the min and max range
         if (currentHealth == 0)
         {
             Destroy(gameObject);
         }
-        Debug.Log(currentHealth + "/" + maxHealth);
+        Debug.Log(currentHealth + "/" + maxHealth);*/
         
     }
 }
